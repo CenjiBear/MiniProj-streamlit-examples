@@ -14,7 +14,7 @@ st.header('Line chart by geographies')
 
 # DATA_URL = ('https://www.kaggle.com/datasets/neuromusic/avocado-prices/download?datasetVersionNumber=1')
 DATA_URL = ('https://www.kaggle.com/datasets/neuromusic/avocado-prices/download/avocado.csv')
-'
+
 # data = pd.read_csv('hello_world/avocado.csv')
 
 data = pd.read_csv(DATA_URL)
