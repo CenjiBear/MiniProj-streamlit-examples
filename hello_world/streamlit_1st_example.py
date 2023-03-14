@@ -5,6 +5,10 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
+import datetime
+today = date.today()
+st.write("# Today's date is ", today)
+
 st.write('# Avocado Prices dashboard')  #st.title('Avocado Prices dashboard')
 st.markdown('''
 This is a dashboard showing the *average prices* of different types of :avocado:  
