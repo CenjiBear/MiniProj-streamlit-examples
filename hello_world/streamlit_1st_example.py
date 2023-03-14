@@ -14,7 +14,7 @@ st.header('Line chart by geographies')
 
 DATA_URL = ('https://www.kaggle.com/datasets/timmate/avocado-prices-2020/avocado-updated-2020.csv')
 
-data = pd.read_csv(hello_world/avocado-updated-2020.csv)
+data = pd.read_csv('hello_world/avocado-updated-2020.csv')
     
 st.header('Summary statistics')
 avocado = pd.read_csv('avocado-updated-2020.csv')
