@@ -6,6 +6,7 @@ import numpy as np
 import plotly.express as px
 
 import datetime
+from datetime import date
 today = date.today()
 st.write("# Today's date is ", today)
 
