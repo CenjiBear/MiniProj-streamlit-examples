@@ -12,11 +12,11 @@ Data source: [Kaggle](https://www.kaggle.com/datasets/timmate/avocado-prices-202
 st.header('Summary statistics')
 st.header('Line chart by geographies')
 
-DATA_URL = ('https://www.kaggle.com/datasets/neuromusic/avocado-prices/download?datasetVersionNumber=1')
+# DATA_URL = ('https://www.kaggle.com/datasets/neuromusic/avocado-prices/download?datasetVersionNumber=1')
 
-# data = pd.read_csv('hello_world/avocado-updated-2020.csv')
+data = pd.read_csv('hello_world/avocado.csv')
 
-data = pd.read_csv(DATA_URL, nrows=1000)
+# data = pd.read_csv(DATA_URL, nrows=1000)
 
 st.header('Summary statistics')
 # avocado = pd.read_csv('avocado-updated-2020.csv')
