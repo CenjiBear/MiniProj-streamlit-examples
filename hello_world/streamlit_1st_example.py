@@ -23,13 +23,6 @@ avocado = pd.read_csv('hello_world/avocado.csv')
 # avocado_stats = avocado.groupby('type')['average_price'].mean()
 # st.dataframe(avocado_stats)
 
-st.header('Line chart by geographies')
-line_fig = px.line(avocado[avocado['geography'] == 'Los Angeles'],
-                   x='date', y='average_price',
-                   color='type',
-                   title='Avocado Prices in Los Angeles')
-st.plotly_chart(line_fig)
-
 st.markdown('''
 We encounter difficulties with loading the data ... to show the dashboard.
 ''')
