@@ -22,3 +22,5 @@ st.header('Summary statistics')
 avocado = pd.read_csv('avocado-updated-2020.csv')
 avocado_stats = avocado.groupby('type')['average_price'].mean()
 st.dataframe(avocado_stats)
+
+# abc
