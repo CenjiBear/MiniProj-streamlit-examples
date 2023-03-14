@@ -16,7 +16,7 @@ DATA_URL = ('https://www.kaggle.com/datasets/neuromusic/avocado-prices/download?
 
 # data = pd.read_csv('hello_world/avocado-updated-2020.csv')
 
-data = pd.read_csv(DATA_URL)
+data = pd.read_csv(DATA_URL, nrows=1000)
 
 st.header('Summary statistics')
 # avocado = pd.read_csv('avocado-updated-2020.csv')
