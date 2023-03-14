@@ -26,3 +26,10 @@ avocado = pd.read_csv('hello_world/avocado.csv')
 st.markdown('''
 We encountered difficulties with loading the data ... therefore unable to show the dashboard.
 ''')
+
+
+st.markdown('''
+Reference:
+We use some codes from this link:
+https://www.justintodata.com/streamlit-python-tutorial/
+''')
