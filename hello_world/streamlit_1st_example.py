@@ -24,5 +24,5 @@ avocado = pd.read_csv('hello_world/avocado.csv')
 # st.dataframe(avocado_stats)
 
 st.markdown('''
-We encounter difficulties with loading the data ... to show the dashboard.
+We encountered difficulties with loading the data ... therefore unable to show the dashboard.
 ''')
