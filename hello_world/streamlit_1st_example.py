@@ -14,8 +14,7 @@ st.header('Line chart by geographies')
 
 st.header('Summary statistics')
 avocado = pd.read_csv('hello_world/avocado.csv')
-# avocado_stats = avocado.groupby('type')['average_price'].mean()
-avocado_stats = avocado.groupby(['average_price'].mean())
+avocado_stats = avocado.groupby('type')['average_price'].mean()
 # st.dataframe(avocado_stats)
 
 st.markdown('''
