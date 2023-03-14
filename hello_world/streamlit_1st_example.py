@@ -19,7 +19,8 @@ DATA_URL = ('https://www.kaggle.com/datasets/neuromusic/avocado-prices/download?
 data = pd.read_csv(DATA_URL)
 
 st.header('Summary statistics')
-avocado = pd.read_csv('avocado-updated-2020.csv')
+# avocado = pd.read_csv('avocado-updated-2020.csv')
+avocado = data
 avocado_stats = avocado.groupby('type')['average_price'].mean()
 st.dataframe(avocado_stats)
 
