@@ -12,7 +12,10 @@ Data source: [Kaggle](https://www.kaggle.com/datasets/timmate/avocado-prices-202
 st.header('Summary statistics')
 st.header('Line chart by geographies')
 
+DATA_URL = ('https://www.kaggle.com/datasets/timmate/avocado-prices-2020/avocado-updated-2020.csv')
 
+data = pd.read_csv(DATA_URL)
+    
 st.header('Summary statistics')
 avocado = pd.read_csv('avocado-updated-2020.csv')
 avocado_stats = avocado.groupby('type')['average_price'].mean()
